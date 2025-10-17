@@ -1,4 +1,4 @@
-import Foundation
+import SwiftUI
 
 struct PlaybackModel: Codable {
     var lastPlayedSong: String
