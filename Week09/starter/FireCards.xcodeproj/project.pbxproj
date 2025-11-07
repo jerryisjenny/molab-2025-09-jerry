@@ -17,6 +17,7 @@
 		C463AF0A2EBDF51200B57DDD /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463AF092EBDF50F00B57DDD /* CardListViewModel.swift */; };
 		C463AF0C2EBDF9E900B57DDD /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463AF0B2EBDF9E600B57DDD /* CardViewModel.swift */; };
 		C463AF0E2EBE02CE00B57DDD /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463AF0D2EBE02CC00B57DDD /* AuthenticationService.swift */; };
+		C463AF102EBE147200B57DDD /* proposal.md in Resources */ = {isa = PBXBuildFile; fileRef = C463AF0F2EBE145F00B57DDD /* proposal.md */; };
 		EE8848F4256D987F00F990F9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EE8848F3256D987F00F990F9 /* FirebaseAuth */; };
 		EE8848F6256D987F00F990F9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EE8848F5256D987F00F990F9 /* FirebaseFirestore */; };
 		EE8848F8256D987F00F990F9 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EE8848F7256D987F00F990F9 /* FirebaseFirestoreSwift-Beta */; };
@@ -39,6 +40,7 @@
 		C463AF092EBDF50F00B57DDD /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
 		C463AF0B2EBDF9E600B57DDD /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		C463AF0D2EBE02CC00B57DDD /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		C463AF0F2EBE145F00B57DDD /* proposal.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = proposal.md; sourceTree = "<group>"; };
 		EE9B4CC024A236A200CEA474 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EE9B4CC224A2884200CEA474 /* NewCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardForm.swift; sourceTree = "<group>"; };
 		EE9B4CC424A2899700CEA474 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		18D775BF22AD944300AE281E /* FireCards */ = {
 			isa = PBXGroup;
 			children = (
+				C463AF0F2EBE145F00B57DDD /* proposal.md */,
 				EEA645CE24C26AFB00BB35F5 /* Services */,
 				EEB567BA24BA3213004AC4B3 /* Repositories */,
 				EEB567B924BA3209004AC4B3 /* ViewModels */,
@@ -225,6 +228,7 @@
 			files = (
 				18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */,
 				18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */,
+				C463AF102EBE147200B57DDD /* proposal.md in Resources */,
 				18D775C722AD944400AE281E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
