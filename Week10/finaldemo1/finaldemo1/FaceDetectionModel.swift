@@ -22,7 +22,7 @@ class FaceDetectionModel: ObservableObject {
         context = CIContext(options: nil)
     }
     
-    // MARK: - Face Detection
+
     
     func detectFace() {
         guard let image = selectedImage else { return }
@@ -87,7 +87,7 @@ class FaceDetectionModel: ObservableObject {
         showingFailAlert = true
     }
     
-    // MARK: - Image Processing
+ 
     
     func pixelateImage() {
         guard let image = originalImage else { return }
@@ -125,7 +125,7 @@ class FaceDetectionModel: ObservableObject {
         statusColor = .blue
     }
     
-    // MARK: - Filter Application
+
     
     private func applyPixelateFilter(to image: UIImage, pixelSize: CGFloat = 20) -> UIImage? {
         guard let cgImage = image.cgImage else { return nil }
