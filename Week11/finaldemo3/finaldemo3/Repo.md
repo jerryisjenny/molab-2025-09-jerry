@@ -1,0 +1,1 @@
+This week I finished the edition part. I asked claude to help me to write the code of detecting the face area and accurately change the size of sense organs. Rightnow, I need more time to understand it and there are some details of the code needed be adjusted. Anyway, next week I still need to work on the generate 3d model stuff.
