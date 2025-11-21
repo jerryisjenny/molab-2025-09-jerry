@@ -104,7 +104,7 @@ struct ImprovedFaceDetectionView: View {
                     ContentUnavailableView(
                         "Haven't selected photo",
                         systemImage: "photo.badge.plus",
-                        description: Text("Choose photo")
+                        description: Text("Select photo")
                     )
                     
                     HStack(spacing: 20) {
